@@ -1,8 +1,5 @@
 .player-name{
-    width: 70px;
-    height: 10px;
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 1rme;
     font-family: "Press Start 2P";
     color: var(--color-floral-wihte);
 }

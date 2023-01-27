@@ -1,4 +1,6 @@
-function PlayerName(name:string):string {
+import "./style.css" 
+
+function PlayerName(name: string): string {
  
     return `
     <p class="player-name">
