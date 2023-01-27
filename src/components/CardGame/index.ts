@@ -1,10 +1,10 @@
 import './style.css'
 
-function CardGame() {
+function CardGame(icon:string = "alura-pixel", alt:string = "logo da alura"):string {
     
     return /*html*/`
         <article class="card-game" >
-            <img src="../../../images/alura-pixel.png"/>
+            <img src="../../../images/${icon}.png" alt="${alt}"/>
         </article>
 
     `
