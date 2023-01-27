@@ -1,9 +1,9 @@
 function PlayerName(name:string):string {
  
     return `
-    <span class="player-name">
+    <p class="player-name">
         ${name}
-    </span>
+    </p>
     `
 }
 
