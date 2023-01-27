@@ -1,10 +1,14 @@
+import "./style.css";
 import CardGame from "../components/CardGame";
 
 function BoradGame(amauntCards:number): string {
     const $htmCardGame:string = CardGame()
-    const $htmBoarGame: string = $htmCardGame.repeat(amauntCards);
+    const $htmlContent: string = $htmCardGame.repeat(amauntCards);
     
-    return $htmBoarGame;
+    return `
+    <section class="board-game">
+        ${$htmlContent}
+    </section>`;
 }
 
 export default BoradGame;
