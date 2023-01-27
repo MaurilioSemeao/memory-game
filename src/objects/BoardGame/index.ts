@@ -1,5 +1,5 @@
 import "./style.css";
-import CardGame from "../components/CardGame";
+import CardGame from "../../components/CardGame";
 
 function BoradGame(amauntCards:number): string {
     const $htmCardGame:string = CardGame()
