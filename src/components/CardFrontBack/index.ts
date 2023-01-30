@@ -12,7 +12,7 @@ interface DOMEvent<T extends EventTarget> extends Event {
     readonly target: T;
 }
 
-function CardFrontBack(): string {
+function CardFrontBack(icon:string, altIcon:string): string {
     window.cardFrontBack = {};
     window.cardFrontBack.handleClick = (event: Event) => {
         const { target } = event as DOMEvent<HTMLInputElement>;
@@ -26,7 +26,7 @@ function CardFrontBack(): string {
                 ${CardGame()}
             </div>
             <div class="card -back">
-             ${CardGame('javascript', 'logo do java Script')}
+             ${CardGame(icon, altIcon)}
             </div>
         </article>
     `;
