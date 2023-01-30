@@ -1,8 +1,12 @@
+import './style.css';
 
-function ArrowDown():string {
+function ArrowDown(currentPlayer:number = 1):string {
     
     return /* html */`
-        <img src="../../images/IconArrowDown.png" alt=" icone de uma seta para baixo" >    
+        <img class="arrow-down"
+            data-currentPlayer=${currentPlayer}
+            src="../../images/IconArrowDown.png" 
+            alt=" icone de uma seta para baixo" >    
     `;
 
 }
