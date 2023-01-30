@@ -1,3 +1,4 @@
+import './style.css';
 
 function VsPlayer(content: string= "vs") {
     return /* html */`
