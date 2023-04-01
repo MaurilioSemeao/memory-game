@@ -5,6 +5,7 @@ declare global {
     interface Window {
         handleClick: any;
         cardFrontBack: any;
+        boardGame: any;
     }
 }
 
